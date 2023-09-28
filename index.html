@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Login Here</h2>
+    <div class="login">
+        <form action="login.php" id="login"  method="get">
+            <label><b>User Name</b></label>
+            <input type="text" name="uname" id="uname" placeholder="User Name">
+            <br><br>
+            <label><b>Password</b></label>
+            <input type="text" name="pass" id="pass" placeholder="Password">
+            <br><br>
+            <input type="button" id="log" name="log" value="Log in Here" onclick="login()">
+            <br><br>
+            <input type="checkbox"  id="check">
+            <span>Remember Me</span>
+            <br><br>
+            <p>Forgot &nbsp &nbsp<a href="#">Password</a> </p>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

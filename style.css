@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: Arial;
+}
+
+form{
+    align-items: center;
+}
+
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px;
+      
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+label{
+    color: rgb(60, 201, 130);
+    font-size: 17px;
+}
+
+#uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 8px;
+    color: rgb(31, 9, 223);
+    background-color: rgb(178, 238, 238);
+    }
+
+span{
+    color: white;
+    font-size: 17px;
+    }
+
+a{
+    color: darkgrey;
+}
+
+.wel{
+    color: crimson;
+  
+    font-size: 30px;
+}
+
+
+
